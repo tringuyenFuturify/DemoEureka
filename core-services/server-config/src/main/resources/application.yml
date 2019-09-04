@@ -6,6 +6,8 @@ spring:
           search-locations: >
             classpath:shared/cloud,
             classpath:shared/database,
+            classpath:shared/security,
             classpath:config/service/helloworld1,
             classpath:config/service/helloworld2,
+            classpath:config/service/frp-api,
             classpath:config/service/authserver
